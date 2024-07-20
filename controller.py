@@ -1,7 +1,7 @@
 import serial
 import serial.tools.list_ports
 
-ser = serial.Serial('/dev/tty.usbmodem1101', 9600, timeout=1)
+ser = serial.Serial('/dev/cu.usbmodem1101', 9600, timeout=1)
 
 def led(total):
     try:
