@@ -74,4 +74,4 @@ with mp_hand.Hands(min_detection_confidence=0.5, min_tracking_confidence=0.5) as
 
 video.release()
 cv2.destroyAllWindows()
-cnt.close_serial()  # Ensure the serial port is closed when the program exits
+cnt.close_serial()  # Ensure the serial port is closed when the program exit
