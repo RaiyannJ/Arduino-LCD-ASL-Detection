@@ -41,7 +41,7 @@ with mp_hand.Hands(min_detection_confidence=0.5, min_tracking_confidence=0.5) as
                     fingers.append(1)
                 else:
                     fingers.append(0)
-            total = fingers.count(1)
+            total = fingers.count(1) #test
             cnt.led(total)
             if total == 0:
                 cv2.rectangle(image, (20, 300), (270, 425), (0, 255, 0), cv2.FILLED)
